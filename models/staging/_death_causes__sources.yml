@@ -5,3 +5,8 @@ sources:
     database: raw
     tables:
       - name: death_causes
+        -columns:
+          - name: country_terrain
+            tests:
+              - unique
+              - not_null
