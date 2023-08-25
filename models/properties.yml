@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: death_causes
+    config:
+      materialized: table
